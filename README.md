@@ -65,3 +65,15 @@ Email: stu213387@mail.uni-kiel.de
   - [C.2 Hyperparameter Tuning via H2O](#c2-hyperparameter-tuning-via-h2o)
   - [C.3 Model Evaluation/Prediction](#c3-model-evaluationprediction)
   - [C.4 Return Prediction for Microsoft and Apple Inc.](#c4-return-prediction-for-microsoft-and-apple-inc)
+ 
+  # Conclusion
+  This paper identifies the best 20 stock-level characteristics out of 94 features
+examined by Gu et al. (2020) that have explanatory power in explaining the
+excess returns exhibited by the US stock market. It also aims to implement
+the Random Forest model that incorporates these characteristics to predict the
+individual’s stock returns.
+Asset pricing applications bring challenges due to a low signal-to-noise ratio.
+Machine Learning algorithms, especially Random Forest, can predict returns
+based on the signal; thus, leading to better measurement. The Success of
+Random Forest based on a significant out-of-sample R-squared ratio brings
+hope for optimal portfolio decisions.
