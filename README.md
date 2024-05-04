@@ -15,6 +15,41 @@ Email: stu213387@mail.uni-kiel.de
 * 1- Primary Review: Prof. Dr. Alexander Klos - https://www.qber.uni-kiel.de/de/team/alexander-klos
 * 2- Secondary Review: Prof. Dr. Stefan Reitz - https://www.qber.uni-kiel.de/de/team/stefan-reitz
 
+# Introduction
+In this paper, I implement a Machine Learning model known as Random
+Forest to investigate the U.S. stock market’s expected returns. Machine
+learning models explain the expected returns’ behavior, which is the most
+widely studied finance problem.
+This paper offers two main contributions. First, I use Random Forest to
+present a descriptive analysis of the best stock-level characteristics that
+provide an informative value on individual stock returns. Gu et al. (2020)
+categorize the top 20 most informative predictors into four groups. First, and
+most importantly, are recent price trend variables such as short-term reversal
+and industry momentum. Next comes liquidity variables such as the market
+equity (size) and dollar trading volume. After that are the risk measure
+variables such as the market beta and idiosyncratic return volatility. Finally,
+are valuation ratios and fundamental signals such as sales-to-price ratio and
+the number of recent earnings increase.1
+Second, I use these best characteristics to predict and measure the individual
+stock return predictions’ accuracy in terms of out-of-sample R-squared. I find
+that in the year 2016, the average R-squared is 17.0743%, which reveals that
+Random Forest shows considerable promise for asset pricing applications.
+This paper will continue in the following way: section 1 provides an overview
+of previous research in asset pricing literature in addition to a glimpse
+regarding the importance of Machine Learning on asset pricing. Since it is
+vital to understand the building blocks of any machine learning model, section
+2 discusses the preliminary concepts of Machine Learning models.
+Considering Random Forest as a Tree-Based Model, a thorough explanation
+of regression trees and bagged models is discussed before Random Forest,
+presented in the second part of section 2. Lastly, section 3 presents an
+empirical study of US equities using Random Forest, which focuses on the
+1 Gu et al. (2020).
+- 2 -
+main findings for the best stock-level characteristics that explain the behavior
+of expected returns in the US stock market. Moreover, I will present the
+prediction of returns for Microsoft and Apple Inc. as a graphical illustration
+for individual stock return predictions.
+
 # Table of Contents
 
 - [List of Tables](#list-of-tables)
