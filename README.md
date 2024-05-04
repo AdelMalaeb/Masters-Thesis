@@ -34,17 +34,24 @@ Second, I use these best characteristics to predict and measure the individual
 stock return predictions’ accuracy in terms of out-of-sample R-squared. I find
 that in the year 2016, the average R-squared is 17.0743%, which reveals that
 Random Forest shows considerable promise for asset pricing applications.
-This paper will continue in the following way: section 1 provides an overview
+
+This paper will continue in the following way: 
+
+* 1- section 1:
+Provides an overview
 of previous research in asset pricing literature in addition to a glimpse
 regarding the importance of Machine Learning on asset pricing. Since it is
-vital to understand the building blocks of any machine learning model, section
-2 discusses the preliminary concepts of Machine Learning models.
+vital to understand the building blocks of any machine learning model.
+
+* 2- section 2:
+Discusses the preliminary concepts of Machine Learning models.
 Considering Random Forest as a Tree-Based Model, a thorough explanation
 of regression trees and bagged models is discussed before Random Forest,
-presented in the second part of section 2. Lastly, section 3 presents an
+presented in the second part of section 2.
+
+* 3- section 3:
+Presents an
 empirical study of US equities using Random Forest, which focuses on the
-1 Gu et al. (2020).
-- 2 -
 main findings for the best stock-level characteristics that explain the behavior
 of expected returns in the US stock market. Moreover, I will present the
 prediction of returns for Microsoft and Apple Inc. as a graphical illustration
